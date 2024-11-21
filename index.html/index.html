@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Blog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navigation Bar -->
+  <header class="bg-white shadow-md">
+   <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-green-600">Recipe Blog</a>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#" class="text-gray-700 hover:text-green-600">Home</a></li>
+          <li><a href="#" class="text-gray-700 hover:text-green-600">Recipes</a></li>
+          <li><a href="#" class="text-gray-700 hover:text-green-600">About</a></li>
+          <li><a href="#" class="text-gray-700 hover:text-green-600">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-96" style="background-image: url('food.webp');">
+    <div class="h-full bg-black bg-opacity-50 flex items-center justify-center">
+      <div class="text-center text-white">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">RECIPES</h1>
+        <p class="text-lg md:text-2xl">Cook explore and enjoy</p>
+        <a href="#recipes" class="mt-6 inline-block bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700">Explore Recipes</a>
+      </div>
+    </div>
+  </section>
+  <section id="recipes" class="py-12">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-8 text-center text-green-600">Recipes</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="biriyani.jpg" alt="Biriyani" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Mutton Biriyani</h3>
+           
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="fried.jfif" alt="Fried Rice" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Fried Rice</h3>      
+                  
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="paneer.jfif" alt="Paneer Butter Masala" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Paneer Butter Masala</h3>
+        
+         
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>Contact Us</p>
+      <p>For Review Email at xxx@gmail.com</p>
+  </footer>
+
+</body>
+</html>
